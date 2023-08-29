@@ -1,21 +1,15 @@
-import {
-  StyleSheet,
-  Text,
-  View,
-  Image,
-  TouchableOpacity,
-  FlatList,
-} from "react-native";
+import { StyleSheet, Text, View, Image, TouchableOpacity } from "react-native";
 import React from "react";
 import { colors, recipeList } from "../Constant";
 import { FontAwesome } from "@expo/vector-icons";
 import { useNavigation } from "@react-navigation/native";
+import { FlashList } from "@shopify/flash-list";
 
 const RecipeCard = () => {
   const navigation = useNavigation();
   return (
     <View>
-      <FlatList
+      <Flar
         estimatedItemSize={200}
         data={recipeList}
         numColumns={2}

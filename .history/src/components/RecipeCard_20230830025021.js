@@ -1,22 +1,22 @@
 import {
+  FlatList,
   StyleSheet,
   Text,
   View,
   Image,
   TouchableOpacity,
-  FlatList,
 } from "react-native";
 import React from "react";
 import { colors, recipeList } from "../Constant";
 import { FontAwesome } from "@expo/vector-icons";
 import { useNavigation } from "@react-navigation/native";
+import { FlashList } from "@shopify/flash-list";
 
 const RecipeCard = () => {
   const navigation = useNavigation();
   return (
     <View>
       <FlatList
-        estimatedItemSize={200}
         data={recipeList}
         numColumns={2}
         showsVerticalScrollIndicator={false}
@@ -29,7 +29,7 @@ const RecipeCard = () => {
             style={{
               backgroundColor: colors.COLOR_LIGHT,
               shadowColor: "#000",
-              shadowOffset: { width: 0, height: 6 },
+              shadowOffset: { width: 0, height: 4 },
               shadowOpacity: 0.1,
               shadowRadius: 7,
               borderRadius: 16,
