@@ -17,11 +17,6 @@ const RecipeCard = () => {
     <View>
       <FlatList
         data={recipeList}
-        numColumns={2}
-        showsVerticalScrollIndicator={false}
-        columnWrapperStyle={{
-          justifyContent: "space-between",
-        }}
         renderItem={({ item }) => (
           <TouchableOpacity
             onPress={() => navigation.navigate("RecipeDetail", { item: item })}
@@ -34,20 +29,20 @@ const RecipeCard = () => {
               borderRadius: 16,
               marginVertical: 16,
               alignItems: "center",
-              paddingHorizontal: 8,
-              paddingVertical: 16,
+              paddingHorizontal: 10,
+              paddingVertical: 26,
             }}
           >
             <Image
               source={item.image}
               style={{ width: 150, height: 150, resizeMode: "center" }}
             />
-            <Text> {item.name}</Text>
+            <Text>{item.name}</Text>
             <View style={{ flexDirection: "row", marginTop: 8 }}>
               <Text>{item.time}</Text>
               <Text> | </Text>
               <View style={{ flexDirection: "row" }}>
-                <Text style={{ marginRight: 6 }}>{item.rating}</Text>
+                <Text style={{ marginRight: 4 }}>{item.rating}</Text>
                 <FontAwesome
                   name="star"
                   size={16}
@@ -57,6 +52,11 @@ const RecipeCard = () => {
             </View>
           </TouchableOpacity>
         )}
+        numColumns={2}
+        columnWrapperStyle={{
+          justifyContent: "space-between",
+        }}
+        showsVerticalScrollIndicator={false}
       />
     </View>
   );

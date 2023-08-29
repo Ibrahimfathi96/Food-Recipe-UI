@@ -8,27 +8,26 @@ import RecipesCard from "../../components/RecipeCard";
 
 const RecipeListScreen = () => {
   return (
-    <SafeAreaView style={{ flex: 1, marginHorizontal: 16 }}>
+    <SafeAreaView style={{ marginHorizontal: 16 }}>
       {/* render header */}
-      <Header headerText={"Hi, John "} headerIcon={"bell-o"} />
+      <Header headerText={"Hi, Ibrahim"} headerIcon={"bell-o"} />
 
-      {/* Search Filter */}
+      {/* SEARCH FILTER */}
       <SearchFilter icon="search" placeholder={"enter your fav recipe"} />
 
-      {/* Categories filter */}
-
-      <View style={{ marginTop: 22 }}>
+      {/* CATEGORIES FILTER */}
+      <View style={{ flex: 1, marginTop: 22 }}>
         <Text style={{ fontSize: 22, fontWeight: "bold" }}>Categories</Text>
-        {/* Categories list */}
+
+        {/* CATEGORIES LIST */}
         <CategoriesFilter />
       </View>
 
-      {/* Recipe List Filter */}
-
-      <View style={{ marginTop: 22, flex: 1 }}>
+      {/* RECIPE LIST FILTER */}
+      <View style={{ marginTop: 22 }}>
         <Text style={{ fontSize: 22, fontWeight: "bold" }}>Recipes</Text>
-        {/* Recipes list */}
 
+        {/* RECIPES LIST */}
         <RecipesCard />
       </View>
     </SafeAreaView>

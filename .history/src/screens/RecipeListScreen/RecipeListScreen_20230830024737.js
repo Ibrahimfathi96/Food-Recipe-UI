@@ -29,7 +29,7 @@ const RecipeListScreen = () => {
         <Text style={{ fontSize: 22, fontWeight: "bold" }}>Recipes</Text>
         {/* Recipes list */}
 
-        <RecipesCard />
+        <RecipeCard />
       </View>
     </SafeAreaView>
   );

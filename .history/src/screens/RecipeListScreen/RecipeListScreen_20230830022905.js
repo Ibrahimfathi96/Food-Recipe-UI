@@ -4,33 +4,31 @@ import Header from "../../components/Header";
 import { SafeAreaView } from "react-native-safe-area-context";
 import SearchFilter from "../../components/SearchFilter";
 import CategoriesFilter from "../../components/CategoriesFilter";
-import RecipesCard from "../../components/RecipeCard";
-
 const RecipeListScreen = () => {
   return (
     <SafeAreaView style={{ flex: 1, marginHorizontal: 16 }}>
       {/* render header */}
-      <Header headerText={"Hi, John "} headerIcon={"bell-o"} />
+      <Header headerText={"Hi, Ibrahim"} headerIcon={"bell-o"} />
 
-      {/* Search Filter */}
+      {/* SEARCH FILTER */}
       <SearchFilter icon="search" placeholder={"enter your fav recipe"} />
 
-      {/* Categories filter */}
-
+      {/* CATEGORIES FILTER */}
       <View style={{ marginTop: 22 }}>
         <Text style={{ fontSize: 22, fontWeight: "bold" }}>Categories</Text>
-        {/* Categories list */}
+
+        {/* CATEGORIES LIST */}
         <CategoriesFilter />
       </View>
 
-      {/* Recipe List Filter */}
+      {/* RECIPE LIST FILTER */}
+      <View style={{ marginTop: 22 }}>
+        <Text style={{ fontSize: 22, fontWeight: "bold" }}>Categories</Text>
 
-      <View style={{ marginTop: 22, flex: 1 }}>
-        <Text style={{ fontSize: 22, fontWeight: "bold" }}>Recipes</Text>
-        {/* Recipes list */}
-
-        <RecipesCard />
+        {/* RECIPES LIST */}
+        <CategoriesFilter />
       </View>
+
     </SafeAreaView>
   );
 };

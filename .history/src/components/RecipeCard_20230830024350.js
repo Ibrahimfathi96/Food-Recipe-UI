@@ -33,6 +33,7 @@ const RecipeCard = () => {
               shadowRadius: 7,
               borderRadius: 16,
               marginVertical: 16,
+              
               alignItems: "center",
               paddingHorizontal: 8,
               paddingVertical: 16,
