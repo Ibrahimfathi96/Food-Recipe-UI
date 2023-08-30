@@ -9,7 +9,9 @@ const SearchFilter = ({ icon, placeholder }) => {
       <TextInput
         placeholder="enter your favorite recipe"
         style={styles.textInput}
-      />
+      >
+        {placeholder}
+      </TextInput>
     </View>
   );
 };

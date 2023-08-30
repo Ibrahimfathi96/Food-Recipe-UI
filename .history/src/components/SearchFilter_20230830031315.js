@@ -6,10 +6,7 @@ const SearchFilter = ({ icon, placeholder }) => {
   return (
     <View style={styles.container}>
       <FontAwesome name={icon} size={20} color="#f96163" />
-      <TextInput
-        placeholder="enter your favorite recipe"
-        style={styles.textInput}
-      />
+      <TextInput placeholder={}style={styles.textInput}>{placeholder}</TextInput>
     </View>
   );
 };
