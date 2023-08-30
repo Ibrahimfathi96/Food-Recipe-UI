@@ -4,6 +4,8 @@ import {
   StyleSheet,
   Text,
   View,
+  Pressable,
+  Dimensions,
   ScrollView,
   TouchableOpacity,
 } from "react-native";
@@ -17,9 +19,7 @@ const RecipeDetailsScreen = ({ navigation, route }) => {
   return (
     <SafeAreaView style={{ flex: 1 }}>
       <View style={{ backgroundColor: item.color, flex: 1 }}>
-        <View
-          style={{ flexDirection: "row", marginHorizontal: 16, marginTop: 40 }}
-        >
+        <View style={{ flexDirection: "row", marginHorizontal: 16 , ma}}>
           <TouchableOpacity
             style={{ flex: 1 }}
             onPress={() => navigation.goBack()}

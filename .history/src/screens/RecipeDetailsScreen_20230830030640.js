@@ -4,6 +4,8 @@ import {
   StyleSheet,
   Text,
   View,
+  Pressable,
+  Dimensions,
   ScrollView,
   TouchableOpacity,
 } from "react-native";

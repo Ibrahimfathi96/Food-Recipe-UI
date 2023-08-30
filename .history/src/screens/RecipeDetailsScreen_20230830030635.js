@@ -4,6 +4,8 @@ import {
   StyleSheet,
   Text,
   View,
+  Pressable,
+  Dimensions,
   ScrollView,
   TouchableOpacity,
 } from "react-native";
@@ -18,7 +20,7 @@ const RecipeDetailsScreen = ({ navigation, route }) => {
     <SafeAreaView style={{ flex: 1 }}>
       <View style={{ backgroundColor: item.color, flex: 1 }}>
         <View
-          style={{ flexDirection: "row", marginHorizontal: 16, marginTop: 40 }}
+          style={{ flexDirection: "row", marginHorizontal: 16, marginTop: 50 }}
         >
           <TouchableOpacity
             style={{ flex: 1 }}

@@ -158,7 +158,7 @@ export const recipeList = [
     time: "60 mins",
     difficulty: "Medium",
     calories: "200 cal",
-    color: "brown",
+    color: "#d35400",
     description:
       "Delightful cupcakes made with a perfect blend of flour, sugar, eggs, and butter, perfect for any occasion.",
     steps: [
