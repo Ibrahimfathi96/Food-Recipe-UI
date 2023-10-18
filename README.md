@@ -20,28 +20,28 @@
 
 <div align="left" style="display: flex; flex-wrap: wrap; justify-content: center;">
   <div style="margin: 10px;">
-    <img src="./Photos/1.jpg" alt="Image 1" width="300">
-    <img src="./Photos/2.jpg" alt="Image 2" width="300">
-    <img src="./Photos/3.jpg" alt="Image 3" width="300">
+    <img src="./Photos/1.jpg" alt="Image 1" width="200">
+    <img src="./Photos/2.jpg" alt="Image 2" width="200">
+    <img src="./Photos/3.jpg" alt="Image 3" width="200">
   </div>
   <div style="margin: 10px;">
-    <img src="./Photos/4.jpg" alt="Image 3" width="300">
-    <img src="./Photos/5.jpg" alt="Image 1" width="300">
-    <img src="./Photos/6.jpg" alt="Image 2" width="300">
+    <img src="./Photos/4.jpg" alt="Image 3" width="200">
+    <img src="./Photos/5.jpg" alt="Image 1" width="200">
+    <img src="./Photos/6.jpg" alt="Image 2" width="200">
   </div>
   <div style="margin: 10px;">
-    <img src="./Photos/7.jpg" alt="Image 3" width="300">
-    <img src="./Photos/8.jpg" alt="Image 3" width="300">
-    <img src="./Photos/9.jpg" alt="Image 1" width="300">
+    <img src="./Photos/7.jpg" alt="Image 3" width="200">
+    <img src="./Photos/8.jpg" alt="Image 3" width="200">
+    <img src="./Photos/9.jpg" alt="Image 1" width="200">
   </div>
   <div style="margin: 10px;">
-    <img src="./Photos/10.jpg" alt="Image 2" width="300">
-    <img src="./Photos/11.jpg" alt="Image 3" width="300">
-    <img src="./Photos/12.jpg" alt="Image 3" width="300">
+    <img src="./Photos/10.jpg" alt="Image 2" width="200">
+    <img src="./Photos/11.jpg" alt="Image 3" width="200">
+    <img src="./Photos/12.jpg" alt="Image 3" width="200">
     </div>
   <div style="margin: 10px;">
-    <img src="./Photos/13.jpg" alt="Image 1" width="300">
-    <img src="./Photos/14.jpg" alt="Image 2" width="300">
+    <img src="./Photos/13.jpg" alt="Image 1" width="200">
+    <img src="./Photos/14.jpg" alt="Image 2" width="200">
   </div>
 </div>
 
